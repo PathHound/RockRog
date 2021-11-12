@@ -1,25 +1,45 @@
 /*-Header Setup-*/
 #SerHead{
   background-color: #FFCC00;
-  display: block;
+  flex-direction: row;
   position: fixed;
-  width: 100%;
+  width: 99%;
   z-index: 1;
+  height:360px;
 }
 
 #headLeft{
-  text-align: left;
-  margin-left: 5px;
+  margin-left: 5%;
+  float:left;
+  width:25%;
+  height: 100%;
 }
 
 #headRight{
-  text-align: right;
   margin-right: 5%;
+  float: right;
+  width:25%;
+  height: 100%;
 }
 
 #headCenter{
-  text-align: center;
+  float:left;
+  width:50%;
+  height: 100%;
 }
+
+#box{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+}
+
+#box img{
+  height: 75%;
+  width: 75%;
+}
+
 .SerBody{
   padding-top: 17.5%;
 }
