@@ -1,20 +1,25 @@
 /*-Header Setup-*/
 #SerHead{
   background-color: #FFCC00;
+  display: block;
   position: fixed;
   width: 100%;
   z-index: 1;
+}
+
+#headLeft{
+  text-align: left;
+  margin-left: 5px;
+}
+
+#headRight{
+  text-align: right;
+  margin-right: 5%;
+}
+
+#headCenter{
   text-align: center;
 }
-
-.card img{
-  opacity: 0.5;
-}
-
-.card:hover img{
-  opacity: 1.0;
-}
-
 .SerBody{
   padding-top: 17.5%;
 }
@@ -29,6 +34,7 @@
   padding-top: 5px;
   margin-top: 15px;
   /*--*/
+  width: 450px;
   background-color: #EF0;
   max-width: 50%;
   height: 150px;
@@ -40,11 +46,20 @@
   text-align: center;
 }
 
-#serHead, img{
-  max-width: 35%;
-  max-height: 35%;
-}
-
 body{
   background-color: #00F;
+}
+
+/*-Background Images for the Cards-*/
+#Battery.card {
+  background-image: url(../img/Delka.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  opacity: 1.0;
+  border: solid 2px #55AEFFFF;
+}
+
+#Battery.card:hover, background-image{
+  opacity: 0.1;
+  border: solid 2px #55AEFFFF;
 }
