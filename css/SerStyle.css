@@ -6,6 +6,7 @@
   width: 99%;
   z-index: 1;
   height:360px;
+  color: #FDFD00;
 }
 
 #headLeft{
@@ -13,6 +14,7 @@
   float:left;
   width:25%;
   height: 100%;
+  font-size: 50px;
 }
 
 #headRight{
@@ -20,6 +22,7 @@
   float: right;
   width:25%;
   height: 100%;
+  font-size: 50px;
 }
 
 #headCenter{
@@ -44,6 +47,22 @@
   padding-top: 17.5%;
 }
 
+.cardBlock{
+  width: inherit;
+  height: 85%;
+}
+
+.cardBlock img{
+  border-radius: 1rem;
+  height: inherit;
+  width: inherit;
+  object-fit: fill;
+}
+
+.cardRibbon{
+  height: 15%;
+}
+
 .card{
   border-radius: 1rem;
   border: solid 2px #55AEFFFF;
@@ -54,10 +73,9 @@
   padding-top: 5px;
   margin-top: 15px;
   /*--*/
+  height: 300px;
   width: 450px;
   background-color: #EF0;
-  max-width: 50%;
-  height: 150px;
 }
 
 .ContentWrapper{
@@ -66,20 +84,10 @@
   text-align: center;
 }
 
+.ribbon{
+  background-color: #;
+}
+
 body{
   background-color: #00F;
-}
-
-/*-Background Images for the Cards-*/
-#Battery.card {
-  background-image: url(../img/Delka.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  opacity: 1.0;
-  border: solid 2px #55AEFFFF;
-}
-
-#Battery.card:hover, background-image{
-  opacity: 0.1;
-  border: solid 2px #55AEFFFF;
 }
