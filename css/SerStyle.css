@@ -55,7 +55,7 @@
 .cardBlock img{
   border-radius: 1rem;
   height: inherit;
-  width: inherit;
+  width: 95%;
   object-fit: fill;
 }
 
@@ -74,7 +74,7 @@
   margin-top: 15px;
   /*--*/
   height: 300px;
-  width: 450px;
+  width: 300px;
   background-color: #EF0;
 }
 
@@ -90,4 +90,62 @@
 
 body{
   background-color: #00F;
+}
+
+/*Content changes with Device*/
+@media only screen and (min-width: 490px) and (max-width: 950px){
+  /*Tablet Colors and Rules*/
+  #SerHead{
+    text-align: center;
+    padding-top: 20px;
+    height: 250px;
+  }
+
+  #headLeft{
+    margin-left: 8%;
+    width:15%;
+    height: 80%;
+    font-size: 30px;
+  }
+
+  #headRight{
+    margin-right: 8%;
+    width:15%;
+    height: 80%;
+    font-size: 30px;
+  }
+
+  #headCenter{
+    width:60%;
+  }
+
+}
+
+@media only screen and (min-width: 1px) and (max-width: 490px){
+  /*CellPhone*/
+  #SerHead{
+    text-align: center;
+    padding-top: 20px;
+    height: 200px;
+  }
+
+  #headCenter{
+    width:100%;
+  }
+
+  #headLeft{
+    margin-left: 0%;
+    width: 0%;
+    height: 0%;
+    font-size: 0px;
+    opacity: 0%;
+  }
+
+  #headRight{
+    opacity: 0%;
+    margin-right: 0%;
+    width: 0%;
+    height: 0%;
+    font-size: 0px;
+  }
 }
